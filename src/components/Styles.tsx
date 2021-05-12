@@ -6,8 +6,15 @@ export default makeStyles((theme) => ({
         display: 'flex',
         flexWrap : 'wrap',
         justifyContent : 'center',
-        marginTop : '20%',
+        marginTop : '30%',
         borderRadius : 3
+    },
+
+    paper : {
+        display : 'flex',
+        alignItems : 'center',
+        padding : '50 50',
+        alignSelf : 'center'
     }
 
 }));
